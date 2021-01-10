@@ -3,6 +3,42 @@ body {
   margin: 0;
   overflow: hidden;
   background: black;
+  color: white;
+}
+
+ul {
+  list-style-type: none;
+  display: flex;
+}
+
+ul li {
+  margin: 0.5vw 2vw;
+  font-size: 1.2vw;
+}
+
+.selected {
+  text-decoration: underline;
+  text-underline-offset: 10px;
+}
+
+.unselected:hover {
+  text-underline-offset: 10px;
+  animation: underlinenav 1.5s ease forwards;
+  cursor: pointer;
+}
+
+@keyframes underlinenav {
+  from {
+    text-decoration: transparent;
+  } to {
+    text-decoration: underline;
+  }
+}
+
+#nav {
+  position: absolute;
+  right: 0;
+  display: none;
 }
   
 .container {
@@ -17,7 +53,7 @@ body {
 }
 
 .title {
-  font-size: 10vw;
+  
   color: rgb(223, 223, 223);
 }
 
