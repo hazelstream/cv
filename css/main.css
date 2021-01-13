@@ -21,7 +21,7 @@ ul li {
 .selected {
   padding: 0.4vw 0.4vw;
   text-decoration: underline;
-  text-underline-offset: 4px;
+  text-underline-offset: 0.2vw;
   border: solid rgb(255, 255, 255) 2px;
   pointer-events: none;
 }
