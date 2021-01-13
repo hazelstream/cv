@@ -1,0 +1,20 @@
+.aboutme, .cv, .contact{
+    display: none;
+}
+
+.container {
+    display: grid;
+    position: absolute;
+    background-color: rgb(235, 235, 235);
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -45%);
+    border: solid rgb(187, 187, 187) 2px;
+    width: 70vw;
+    height: 70vh;
+
+}
+
+#self {
+    width: 30%;
+}

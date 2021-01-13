@@ -2,7 +2,7 @@ $(document).ready(function() {
 
     $("#aboutbutton").click(function(){
         click();
-
+        setTimeout(() => $(".aboutme").fadeIn(500), 700);
         $("li:not(#aboutbutton)").removeClass("selected");
         $(this).toggleClass("selected");
     })
@@ -10,6 +10,7 @@ $(document).ready(function() {
     $("#cvbutton").click(function(){
         click();
 
+        setTimeout(() => $(".cv").fadeIn(500), 700);
         $("li:not(#cvbutton)").removeClass("selected");
         $(this).addClass("selected");
     })
@@ -17,6 +18,7 @@ $(document).ready(function() {
     $("#contactbutton").click(function(){
         click();
 
+        setTimeout(() => $(".contact").fadeIn(500), 700);
         $("li:not(#contactbutton)").removeClass("selected");
         $(this).toggleClass("selected");
     })
