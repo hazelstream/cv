@@ -14,13 +14,16 @@ ul {
 ul li {
   padding: 0.5vw 0.5vw;
   margin: 0.5vw 1vw;
-  font-size: 1.2vw;
+  font-size: 1.7vw;
+  user-select: none;
 }
 
 .selected {
+  padding: 0.4vw 0.4vw;
   text-decoration: underline;
   text-underline-offset: 4px;
   border: solid rgb(255, 255, 255) 2px;
+  pointer-events: none;
 }
 
 .unselected:hover {
@@ -69,6 +72,7 @@ canvas {
   top: 50%;
   transform: translate(-50%, -50%);
   animation: fill 0.8s ease forwards 4s;
+  display: block;
 }
 
 #logo path:nth-child(1) {
