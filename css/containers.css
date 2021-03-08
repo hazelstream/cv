@@ -3,20 +3,31 @@
 }
 
 .container {
-    display: grid;
+    display: flex;
     position: absolute;
     background-color: rgb(235, 235, 235);
     left: 50%;
     top: 50%;
     transform: translate(-50%, -45%);
     border: solid rgb(187, 187, 187) 2px;
-    width: 70vw;
-    height: 70vh;
+    width: 80vw;
+    height: 80vh;
+    color: black;
 
 }
 
 #self {
+    margin: 1rem 1rem;
+    align-self:center;
+    object-fit: cover;
     width: 30%;
+    height: 90%;
+    border-radius: 1rem;
+}
+
+#information {
+    margin: 1rem 1rem;
+    align-self:center;
 }
 
 @media (max-width : 760px){
