@@ -21,15 +21,15 @@ ul li {
 }
 
 .selected {
-  margin: 0.4vw 0.9vw;
+  margin: 0.2vw 0.6vw;
   text-decoration: underline;
   text-underline-offset: 0.2vw;
-  border: solid rgb(255, 255, 255) 2px;
+  border: solid rgb(255, 255, 255) 0.3vh;
   pointer-events: none;
 }
 
 .unselected:hover {
-  text-underline-offset: 4px;
+  text-underline-offset: 0.2vh;
   animation: underlinenav 1.5s ease forwards;
   cursor: pointer;
 }
@@ -59,6 +59,9 @@ ul li {
   }
   ul li {
     font-size: 1.3rem;
+  }
+  .selected, .unselected:hover {
+    text-underline-offset: 0.1vw;
   }
 }
 
