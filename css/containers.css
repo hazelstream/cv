@@ -18,3 +18,10 @@
 #self {
     width: 30%;
 }
+
+@media (max-width : 760px){
+    .container {
+        width: 100vw;
+        transform: translate(-50%, -40%);
+    }
+}

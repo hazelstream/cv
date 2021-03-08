@@ -50,6 +50,7 @@ ul li {
 
 @media (max-width : 760px) {
   #nav {
+    padding-top: 3rem;
     width: 100%;
     left: 0;
   }
