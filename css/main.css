@@ -9,10 +9,10 @@ body {
 ul {
   list-style-type: none;
   display: flex;
+  padding-left: 0px;
 }
 
 ul li {
-  padding: 0.7vw 0.7vw;
   margin: 0.5vw 1vw;
   font-size: 1.5rem;
   user-select: none;
