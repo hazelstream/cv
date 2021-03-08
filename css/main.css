@@ -12,14 +12,15 @@ ul {
 }
 
 ul li {
-  padding: 0.5vw 0.5vw;
+  padding: 0.7vw 0.7vw;
   margin: 0.5vw 1vw;
-  font-size: 1.7vw;
+  font-size: 1.5rem;
   user-select: none;
+  
 }
 
 .selected {
-  padding: 0.4vw 0.4vw;
+  padding: 0.6vw 0.6vw;
   text-decoration: underline;
   text-underline-offset: 0.2vw;
   border: solid rgb(255, 255, 255) 2px;
@@ -45,20 +46,21 @@ ul li {
   right: 0;
   display: none;
 }
-  
-.container {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100vw;
-  height: 100vh;
+
+@media (max-width : 760px) {
+  #nav {
+    width: 100%;
+    left: 0;
+  }
+  ul {
+    justify-content: space-evenly;
+  }
+  ul li {
+    font-size: 1.9rem;
+  }
 }
 
 .title {
-  
   color: rgb(223, 223, 223);
 }
 
