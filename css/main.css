@@ -55,9 +55,6 @@ ul li {
   ul {
     justify-content: space-evenly;
   }
-  ul li {
-    font-size: 1.9rem;
-  }
 }
 
 .title {
