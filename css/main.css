@@ -103,6 +103,10 @@ ul li {
   width: 55%;
 }
 
+.aboutme .container .insidecontainer {
+  display: flex;
+}
+
 @media (max-width : 1171px) {
   #nav {
     padding-top: 1.5rem;
