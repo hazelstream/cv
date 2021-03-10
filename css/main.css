@@ -131,7 +131,7 @@ ul li {
   .container {
     width: 96%;
     transform: translate(-50%, -40%);
-    overflow: scroll;
+    overflow: auto;
     flex-direction: column;
   }
   ul li {
