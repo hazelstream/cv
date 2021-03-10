@@ -105,6 +105,7 @@ ul li {
 
 .aboutme .container .insidecontainer {
   display: flex;
+  width: 80%;
 }
 
 @media (max-width : 1171px) {
