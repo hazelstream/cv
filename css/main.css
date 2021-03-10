@@ -71,7 +71,7 @@ h2 {
   color: black;
   justify-content: center;
   align-items: center;
-  overflow: scroll;
+  overflow: auto;
 }
 
 ul {
@@ -97,11 +97,13 @@ ul li {
   margin: 1rem 1rem;
 }
 
+
+
 .insidecontainer {
   width: 55%;
 }
 
-@media (max-width : 600px) {
+@media (max-width : 1000px) {
   #nav {
     padding-top: 1.5rem;
     width: 100%;
