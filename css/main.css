@@ -14,8 +14,8 @@ body {
 }
 
 #nav ul li {
-  padding: 0.6vw 0.6vw;
-  margin: 0.5vw 1vw;
+  padding: 1rem 1rem;
+  margin: 1rem 1rem;
   font-size: 1.5rem;
   user-select: none;
   
@@ -109,11 +109,15 @@ ul li {
     width: 100%;
     left: 0;
   }
+  #nav ul li {
+    padding: 0.3rem 0.3rem;
+    margin: 0.3rem 0.3rem;
+  }
   ul {
     justify-content: space-evenly;
   }
   ul li {
-    font-size: 1.3rem;
+    font-size: 1rem;
   }
   .selected, .unselected:hover {
     text-underline-offset: 0.1vw;
@@ -134,21 +138,17 @@ ul li {
     overflow: auto;
     flex-direction: column;
     padding: 1rem 1rem;
-    padding-top: 3rem;
+    padding-top: 8rem;
   }
-  ul li {
-    font-size: 1rem;
-  }
+  
   .insidecontainer {
     width: 90%;
   }
   #self {
-    margin-top: 200px;
     border-radius: 2rem;
     width: 55%;
   }
   #cvtitel {
-    margin-top: 200px;
   }
 }
 
