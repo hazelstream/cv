@@ -1,5 +1,5 @@
 body {
-  font-family: 'Alatsi', sans-serif;
+  font-family: 'Candara', sans-serif;
   margin: 0;
   overflow: hidden;
   background: black;
@@ -105,7 +105,7 @@ ul li {
 
 .aboutme .container .insidecontainer {
   display: flex;
-  width: 80%;
+  width: 90%;
 }
 
 @media (max-width : 1171px) {
