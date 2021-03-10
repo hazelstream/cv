@@ -138,13 +138,14 @@ ul li {
     overflow: auto;
     flex-direction: column;
     padding: 1rem 1rem;
-    padding-top: 8rem;
+    margin-top: 10%;
   }
   
   .insidecontainer {
     width: 90%;
   }
   #self {
+    margin-top: 35%;
     border-radius: 2rem;
     width: 55%;
   }
