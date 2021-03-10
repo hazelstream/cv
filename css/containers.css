@@ -13,7 +13,13 @@
     width: 80vw;
     height: 80vh;
     color: black;
+    justify-content: center;
+    align-items: center;
+}
 
+ul {
+    display: block;
+    list-style-type: circle;
 }
 
 #self {
@@ -30,9 +36,25 @@
     align-self:center;
 }
 
+
+
+ul li {
+    margin: 1rem 1rem;
+}
+
+.insidecontainer {
+    width: 35%;
+}
+
 @media (max-width : 760px){
     .container {
         width: 100vw;
         transform: translate(-50%, -40%);
+    }
+    ul li {
+        font-size: 1rem;
+    }
+    .insidecontainer {
+        width: 90%;
     }
 }

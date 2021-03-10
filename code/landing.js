@@ -1,5 +1,5 @@
 $(document).ready(function() {
-    setTimeout(() => $("#nav").fadeIn(750), 1000);
-    setTimeout(() => $(".aboutme").fadeIn(500), 1000);
+    setTimeout(() => $("#nav").fadeIn(500), 500);
+    setTimeout(() => $(".aboutme").fadeIn(500), 500);
     $("#aboutbutton").toggleClass("selected");
 })
