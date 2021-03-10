@@ -134,7 +134,8 @@ ul li {
   }
   .container {
     width: 85%;
-    transform: translate(-50%, -40%);
+    height: 65vh;
+    transform: translate(-50%, -45%);
     overflow: auto;
     flex-direction: column;
     padding: 1rem 1rem;
@@ -142,14 +143,16 @@ ul li {
   }
   
   .insidecontainer {
+    height: 100%;
     width: 90%;
+    display: flex;
+    flex-direction: column;
   }
   #self {
+
     border-radius: 2rem;
     width: 55%;
-  }
-  #cvtitel {
-    margin-top: 150px;
+    height: 50%;
   }
 }
 
