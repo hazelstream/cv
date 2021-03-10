@@ -145,15 +145,11 @@ ul li {
     width: 90%;
   }
   #self {
-    margin-top: 35%;
     border-radius: 2rem;
     width: 55%;
   }
   #cvtitel {
-<<<<<<< HEAD
-=======
     margin-top: 150px;
->>>>>>> parent of adbfb86... make it more mobilefriendly
   }
 }
 
