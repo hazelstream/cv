@@ -76,6 +76,9 @@ h2 {
   #information h2 {
     padding-top: 0rem;
   }
+  #nav {
+    width: 100%;
+  }
 }
 
 .title {
