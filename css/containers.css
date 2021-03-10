@@ -50,11 +50,18 @@ ul li {
     .container {
         width: 100vw;
         transform: translate(-50%, -40%);
+        overflow: scroll;
+        flex-direction: column;
     }
     ul li {
         font-size: 1rem;
     }
     .insidecontainer {
         width: 90%;
+    }
+    #self {
+        margin-top: 7rem;
+        border-radius: 2rem;
+        width: 45%;
     }
 }
