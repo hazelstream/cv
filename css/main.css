@@ -129,10 +129,12 @@ ul li {
     width: 100%;
   }
   .container {
-    width: 96%;
+    width: 85%;
     transform: translate(-50%, -40%);
     overflow: auto;
     flex-direction: column;
+    padding: 1rem 1rem;
+    padding-top: 3rem;
   }
   ul li {
     font-size: 1rem;
