@@ -1,87 +1,97 @@
 <!DOCTYPE html>
-<html>
-    <link rel=stylesheet href="css/main.css" type="text/css">
-    
-    <header>
-        <meta name="viewport" content="width=device-width, initial-scale=1" /> 
-        <title>Hazelstream</title>
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.0.2/jquery.min.js" type="text/javascript"></script>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
         <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Ubuntu" />
-        
-    </header>
-    <body onresize="window.location.href = window.location.href;">
-        <nav id="nav">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+        <link rel="icon" href="android-chrome-192x192.png" type="image/icon type">
+        <title>Viktor</title>
+    </head>
+
+    <body>
+        <nav>
             <ul>
-                <li id="aboutbutton" class="unselected">OM MIG</li>
-                <li id="cvbutton" class="unselected">CV</li>
-                <li id="contactbutton" class="unselected">KONTAKT</li>
+                <a href="#welcome-section"><li>About</li></a>
+                <a href="#projects"><li>Work</li></a>
+                <a href="#contact-section"><li>Contact</li></a>
             </ul>
         </nav>
 
-        <div class="aboutme">
-            <div class="container">        
-                <div class="insidecontainer">
-                    <img id="self" src="images/self.png" alt="">
-                    <div id="information">
-                        <h2>Viktor Hasselström Svensson</h2>
-                        <p>Jag är snart 28 år och läser min sista termin på systemvetenskapliga linjen med inriktning på systemutveckling. Mina kompetenser från det inkluderar men är inte begränsade till:</p>
+        <section id="welcome-section">
+            <h1 class="myname">
+                Hi I'm Viktor
+            </h1>
+        </section>
 
-                        <ul id="knowledge">
-                            <li>Agila metoder, tex. Scrum och XP</li>
-                            <li>C++, Java, JavaScript (samt JQuery), HTML och CSS</li>
-                            <li>Datastrukturer och algoritmer</li>
-                            <li>Datasäkerhet</li>
-                            <li>Linux och Git</li>
-                        </ul>
-
-                        <p>På fritiden så ägnar jag mig helst åt matlagning, skönlitteratur och datorer, både en del spelande och en del programmering. Jag har även ett intresse för att träna och röra på mig.</p>
-                    </div>  
+        <section id="projects">
+            <div id="project-area">
+                <div class="img-area">
+                    <h2>UFO Java Game</h2>
+                    <a href="https://github.com/hazelstream/lets-build-a-game" target=_blank class="project-tile">
+                        <img src="ufo.PNG" alt="">    
+                    </a>
+                    <div class="preview-and-title">
+                        <a href="https://github.com/hazelstream/lets-build-a-game" target=_blank>
+                            <p>Get code</p>
+                        </a>
+                    </div>
                 </div>
-            </div>
-        </div>
-
-        <div class="cv">
-            <div class="container">
-                <div class="insidecontainer">
-                    <h2 id="cvtitel">CV</h2>
-
-                    <h3>Utbildning</h3>
-                    <ul>
-                        <li>Sommaren 2021 går jag ut systemvetenskapliga programmet med inriktning på systemutveckling vid Linköpings Universitet</li>
-                        <li>Gymnasieutbildning: Samhällsvetenskapliga programmet med inriktning på juridik och ekonomi vid Tibble Gymnasium</li>
-                    </ul>
-
-                    <h3>Tidigare arbetserfarenhet</h3>
-                    <ul>
-                        <li>2020, Sommararbete på Scan, Linköping, som industriell köttpackare.</li>
-                        <li>2016-2017, Skiftledare på McDonald's.</li>
-                        <li>2015-2016, Internship/Assistent på Burnt Oak Partners Nordic AB parallellt med studier</li>
-                        <li>2014, Telefonförsäljare på Krieg & Olofsson Marketing AB parallellt med studier.</li>
-                        <li>2014, Lärarassistent på ett datorläger för unga mellan 8-16 år på Logica CGI.</li>
-                        <li>2013-2014, Lärarassistent och vikarie hos Norrortsvikarierna.</li>
-                        <li>2009, Praktik som köksassistent på Arninge Krog och Restaurant Pont i Täby.</li>
-                    </ul>
-                </div>
+                
+                <div class="img-area">
+                    <h2>Pacman Java Clone</h2>
+                    <a href="https://github.com/hazelstream/pacman" target=_blank class="project-tile">
+                        <img src="pacman.PNG" alt="">
+                    </a>
+                    <div class="preview-and-title">
+                        <a href="https://github.com/hazelstream/pacman" target=_blank>
+                            <p>Get code</p>
+                        </a>
+                    </div>
                     
-            </div>
-        </div>
-
-        <div class="contact">
-            <div class="container">
-                <div class="insidecontainer">
-                    <h2>Kontakt</h2>
-                    <p>Viktor Hasselström Svensson</p>
-                    <p>Skräddaregatan 1b, 582 40 Linköping</p>
-                    <p>hzzl@protonmail.com</p>
-                    <p>+(46)70 456 19 50</p>
-
-                    <p>Exempel på kod jag har skrivit i mina kurser kan hittas på <a href="https://github.com/hazelstream">min githubsida.</a></p>
+                </div>
+                <div class="img-area">
+                    <h2>Etch-a-Sketch JavaScript</h2>
+                    <a href="https://codepen.io/hazelstream/pen/zYNmZGx" target=_blank class="project-tile">
+                        <img src="etchasketch.PNG" alt="">    
+                    </a>
+                    <div class="preview-and-title">
+                        <a href="https://codepen.io/hazelstream/pen/zYNmZGx" target=_blank>
+                            <p>Preview and get code</p>
+                        </a>
+                    </div>
+                </div>
+                
+                <div class="img-area">
+                    <h2>Documentation Page (HTML & CSS)</h2>
+                    <a href="https://codepen.io/hazelstream/pen/LYbaOKy" target=_blank class="project-tile">
+                        <img src="project2.PNG" alt="">
+                    </a>
+                    <div class="preview-and-title">
+                        <a href="https://codepen.io/hazelstream/pen/LYbaOKy" target=_blank>
+                            <p>Preview and get code</p>
+                        </a>
+                    </div>
                 </div>
             </div>
-        </div>
+        </section>
 
-        <script src="code/navbarfunctions.js"></script>
-        <script src="code/metaballs.js" type="text/javascript"></script>
-        <script src="code/landing.js" type="text/javascript"></script>
+        <section id="contact-section">
+            <a href="https://www.linkedin.com/in/viktor-hasselstr%C3%B6m-svensson-b2a6a5193/" target=_blank class="profile-link">
+                <img src="linked-in.png" alt="">
+                <p>LinkedIn</p>
+            </a>
+            <a href="https://github.com/hazelstream" target=_blank class="profile-link">
+                <img src="white-github.png" alt="">
+                <p>GitHub</p>
+            </a>
+            <a href="mailto:hzzl@protonmail.com" target=_blank class="profile-link">
+                <img src="email-icon-white.png" alt="">
+                <p>Email</p>
+            </a>
+        </section>
     </body>
 </html>
