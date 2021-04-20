@@ -226,7 +226,7 @@ a img {
         font-size: 1.5rem;
     }
     li {
-        padding: 0 5px;
+        padding: 0 15px;
     }
     #project-area {
         grid-template-columns: 1fr;
