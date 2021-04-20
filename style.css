@@ -226,9 +226,9 @@ a img {
     .myname {
         font-size: 1.5rem;
     }
-    li {
+    /* li {
         font-size: 2rem;
-    }
+    } */
     #project-area {
         grid-template-columns: 1fr;
     }
