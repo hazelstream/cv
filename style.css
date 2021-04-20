@@ -96,6 +96,11 @@ ul a:hover {
     margin-bottom: 1rem;
 }
 
+#my-name {
+    max-width: 80%;
+    text-align: center;
+}
+
 #about-section {
     background-color: var(--nav-bg-color);
 }
