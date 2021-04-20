@@ -106,7 +106,7 @@ ul a:hover {
     justify-content: center;
     align-items: center;
     text-shadow: 2px 2px var(--main-bg-color);
-    padding-top: 2rem;
+    padding-top: 5rem;
 }
 
 .skill-list {
