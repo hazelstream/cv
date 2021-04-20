@@ -36,7 +36,7 @@ nav {
 
 
 
-ul {
+nav ul {
     display: flex;
     list-style-type: none;
     height: 100%;
@@ -44,12 +44,11 @@ ul {
 
 a {
     text-decoration: none;
-
     transition: all 0.06s ease-in-out;
     text-shadow: 2px 2px var(--main-bg-color);
 }   
 
-li {
+a li {
     height: 100%;
     display: flex;
     align-items: center;
@@ -88,6 +87,40 @@ ul a:hover {
     justify-content: center;
     align-items: center;
 }
+
+#self {
+    max-width: 40%;
+    max-height: auto;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    margin-bottom: 1rem;
+}
+
+#about-section {
+    background-color: var(--nav-bg-color);
+}
+
+#about-area {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-shadow: 2px 2px var(--main-bg-color);
+    padding-top: 2rem;
+}
+
+.skill-list {
+    max-width: 50%;
+}
+
+.text-section {
+    margin: 3rem;
+}
+
+.text-section li {
+    margin-top: 1rem;
+}
+
 
 h1 {
     font-size: 3rem;
@@ -237,5 +270,8 @@ a img {
     }
     .img-area {
         margin: 3rem 0;
+    }
+    .skill-list {
+        max-width: 90%;
     }
 }
